@@ -6,7 +6,7 @@ set -eu
 cd "$(dirname "$0")/../.."
 REPO_ROOT="$(pwd)"
 PKG_DIR="$REPO_ROOT/debian-pkg"
-VERSION="0.$(git rev-list --count HEAD)"
+VERSION="1.$(git rev-list --count HEAD)"
 sed -i "s/^version = .*/version = \"$VERSION\"/" pyproject.toml
 sed -i "s/^Version: .*/Version: $VERSION/" packaging/deb/control
 
