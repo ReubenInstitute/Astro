@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Astro"
+version = "1.0"
+description = "Astronomy utilities: celestial location, sun/moon position, geo coordinates"
+readme = { text = "Astronomy utilities: celestial location, sun/moon position, geo coordinates.", content-type = "text/plain" }
+requires-python = ">=3.8"
+dependencies = [
+    "Date",
+]
+
+[tool.setuptools]
+py-modules = ["Astro", "Geo", "Sun", "Moon"]
