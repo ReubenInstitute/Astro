@@ -7,6 +7,7 @@ name = "Astro"
 version = "1.3"
 description = "Astronomy utilities from Reuben Institute — celestial location, sun/moon position calculations, and geo coordinates"
 readme = { text = "Astronomy utilities from Reuben Institute — celestial location, sun/moon position calculations, and geo coordinates.", content-type = "text/plain" }
+license = { text = "GPL-3.0-or-later" }
 requires-python = ">=3.8"
 dependencies = [
     "Date",
